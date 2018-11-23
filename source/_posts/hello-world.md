@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: Welcome!
 date: 2018/11/23
 categories:
 - foo
 ---
-Welcome!
+无
