@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -92,10 +92,10 @@ duoshuo:
 # Menu configuration.
 menu:
   home: /
-  archives: /archives
-  tags: /tags
-  categories: /categories
-  about: /about
+  archives: source/archives
+  tags: source/tags
+  categories: source/categories
+  about: source/about
 # Favicon
 favicon: /favicon.ico
 # # Avatar (put the image into next/source/images/)
