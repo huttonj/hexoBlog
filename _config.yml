@@ -81,3 +81,32 @@ deploy:
   type: git
   repository: https://github.com/huttonj/hexoBlog.git
   branch: master
+
+sitemap:
+  path: sitemap.xml
+
+duoshuo:
+  enable: true
+  shortname: your-duoshuo-shortname
+
+# Menu configuration.
+menu:
+  home: /
+  archives: /archives
+  tags: /tags
+  categories: /categories
+  about: /about
+# Favicon
+favicon: /favicon.ico
+# # Avatar (put the image into next/source/images/)
+# # can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..)
+avatar: /default_avatar.png
+# # Code highlight theme
+# # available: normal | night | night eighties | night blue | night bright
+highlight_theme: normal
+# # Fancybox for image gallery
+fancybox: true
+# # Specify the date when the site was setup
+since: 2013
+social:
+  GitHub: https://github.com/huttonj
